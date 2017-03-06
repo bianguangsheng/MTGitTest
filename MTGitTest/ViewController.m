@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+- (void)sayHello;
 @end
 
 @implementation ViewController
@@ -19,9 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIButton *btn=[[UIButton alloc]init];
     [btn setTitle:@"button" forState:UIControlStateNormal];
-    
+    [self  sayHello];
 }
-
+- (void)sayHello {
+    NSLog(@"hello");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
