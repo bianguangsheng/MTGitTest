@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+- (void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -21,7 +21,9 @@
     [btn setTitle:@"button" forState:UIControlStateNormal];
     
 }
-
+- (void)sayByeBye {
+    NSLog(@"say byebye");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
