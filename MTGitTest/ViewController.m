@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (void)sayHello;
 - (void)sayByeBye;
 @end
 
@@ -23,6 +24,7 @@
 }
 - (void)sayHello {
     NSLog(@"hello");
+    NSLog(@"guanlian new remote respository at github.com");
 }
 - (void)sayByeBye {
     NSLog(@"say byebye");
